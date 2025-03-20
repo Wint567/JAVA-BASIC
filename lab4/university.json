@@ -1,0 +1,66 @@
+{
+  "name": "Test University",
+  "head": {
+    "studentId": "S101",
+    "firstName": "John",
+    "lastName": "Doe",
+    "middleName": "Michael",
+    "sex": "MALE",
+    "type": "Student"
+  },
+  "faculties": [
+    {
+      "name": "Faculty of Science",
+      "head": {
+        "studentId": "S102",
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "middleName": "Jane",
+        "sex": "FEMALE",
+        "type": "Student"
+      },
+      "departments": [
+        {
+          "name": "Computer Science",
+          "head": {
+            "studentId": "S103",
+            "firstName": "Bob",
+            "lastName": "Brown",
+            "middleName": "James",
+            "sex": "MALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "CS-101",
+              "head": {
+                "studentId": "S104",
+                "firstName": "Eve",
+                "lastName": "Adams",
+                "middleName": "Marie",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S105",
+                  "firstName": "Charlie",
+                  "lastName": "Johnson",
+                  "middleName": "David",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S106",
+                  "firstName": "Diana",
+                  "lastName": "White",
+                  "middleName": "Elizabeth",
+                  "sex": "FEMALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

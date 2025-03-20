@@ -1,0 +1,10 @@
+USE students_db;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,      -- Унікальний ID студента
+    last_name VARCHAR(50) NOT NULL,         -- Прізвище
+    first_name VARCHAR(50) NOT NULL,        -- Ім'я
+    middle_name VARCHAR(50),                -- По батькові (може бути NULL)
+    birth_date DATE NOT NULL,               -- Дата народження
+    studentbook_num VARCHAR(20) NOT NULL  -- Номер залікової книжки
+);
